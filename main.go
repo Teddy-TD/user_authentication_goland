@@ -12,6 +12,7 @@ import (
 func main() {
     // Database connection
     database.Connect()
+    // used fror commit 
     
     // Initialize a new Fiber app
     app := fiber.New()
